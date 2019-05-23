@@ -1,0 +1,23 @@
+{
+  "name": "cars",
+  "version": "1.0.0",
+  "description": "koa test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/www",
+    "pm2": "pm2 start bin/www --name sports"
+  },
+  "keywords": [
+    "koa",
+    "nodejs",
+    "spa server"
+  ],
+  "author": "xueliang",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.5.3",
+    "koa-onerror": "^4.1.0",
+    "koa-static": "^5.0.0",
+    "koa2-connect-history-api-fallback": "^0.1.1"
+  }
+}
