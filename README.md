@@ -4,6 +4,8 @@
 
 ### 使用 pm2 进程管理运行
 
+### 使用 `dist` 文件夹
+
 `npm install pm2 -g`
 
 `pm2 start bin/www --name [name]`  `[name]  -->` 应用名称
