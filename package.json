@@ -14,6 +14,10 @@
   ],
   "author": "xueliang",
   "license": "ISC",
+  "repository": {
+    "type": "GIT",
+    "url": "git@github.com:xl07097/web-server.git"
+  },
   "dependencies": {
     "koa": "^2.5.3",
     "koa-onerror": "^4.1.0",
