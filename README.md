@@ -6,6 +6,8 @@
 
 ### 使用 pm2 进程管理运行
 
+`bin/www` 脚本启动文件
+
 `npm install pm2 -g`
 
 `pm2 start bin/www --name [name]`  `[name]  -->` 应用名称
