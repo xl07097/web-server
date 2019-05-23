@@ -24,7 +24,7 @@
 
 ### 服务器首次使用 pm2 工具
 
-`pm2 startup [platform]`  设置应用列表随系统自启动 `[platform] --> ubuntu，ubuntu14，ubuntu12，centos，centos6，arch，oracle，amazon，macos，darwin，freebsd，systemd，systemv，upstart，launchd，rcd，openrc` 等，`window` 系统无效 选填 ，不填时自动识别系统
+`pm2 startup [platform]`  设置应用列表随系统自启动 `[platform] --> ubuntu，ubuntu14，ubuntu12，centos，centos6，arch，oracle，amazon，macos，darwin，freebsd，systemd，systemv，upstart，launchd，rcd，openrc` 等，`window` 系统无效。 选填，不填时自动识别系统
 
 `pm2 save`  把当前运行的应用保存到 `pm2` 进程列表中 随系统自启动
 
