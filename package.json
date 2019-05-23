@@ -1,5 +1,5 @@
 {
-  "name": "cars",
+  "name": "web-server",
   "version": "1.0.0",
   "description": "koa test",
   "main": "index.js",
