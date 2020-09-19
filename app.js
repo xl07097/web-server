@@ -1,5 +1,4 @@
 const Koa = require("koa");
-const static = require('koa-static');
 const onerror = require('koa-onerror');
 const url = require('url')
 
@@ -10,7 +9,7 @@ onerror(app)
 
 app.use(historyApiFallback());
 
-app.use(static(__dirname + '/dist'))
+app.use(require('koa-static')(__dirname + '/dist'))
 
 // error-handling
 app.on('error', (err, ctx) => {
