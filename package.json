@@ -19,7 +19,7 @@
     "url": "git@github.com:xl07097/web-server.git"
   },
   "dependencies": {
-    "koa": "^2.5.3",
+    "koa": "^2.16.1",
     "koa-onerror": "^4.1.0",
     "koa-static": "^5.0.0"
   }
